@@ -1,0 +1,38 @@
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+}
+
+.card .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card .card-title {
+    color: #4b2525;
+}
+
+.card .card-text {
+    color: #666;
+}
+
+.card .card-price {
+    color: #ff5e00; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
